@@ -41,4 +41,8 @@ class Structure:
         return self.type == Structure.LL
 
     def __str__(self):
-        return f"{self.type} | {self.time} | {self.price}"
+        return (
+            f"{self.type} | "
+            f"{self.time} | "
+            f"{self.price}"
+        )
